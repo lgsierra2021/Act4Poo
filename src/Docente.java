@@ -19,6 +19,7 @@ public class Docente extends Persona {
         System.out.println("Area: " + area);
         System.out.println("Sueldo: " + sueldo);
         System.out.println("------------------");
+        System.out.println("Fin.");
     }
 
     public void cobrarSueldo() {
