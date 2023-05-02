@@ -1,15 +1,31 @@
 public class App {
     public static void main(String[] args) throws Exception {
-        Estudiante estudiante1 = new Estudiante("Juan", "Hernandez Hernandez", 20, 2023, 4.2f);
-        estudiante1.mostrarDatos();
+        
+        Pantera pantera1 = new Pantera(111, "Pantera Negra", 0.8f, 90, "Garras y colmillos");
 
-        Docente docente1 = new Docente("Andrés", "Rios Noriega", 38, "Matemáticas", (double) 3640000);
-        docente1.mostrarDatos();
+        
+        pantera1.alimentarse();
+        pantera1.correr();
+        pantera1.mostrarDatos();
 
-        Admistrativo administrativo1 = new Admistrativo("Alfredo", "Contreras", 45, "Tesorería", (double) 20515062);
-        administrativo1.mostrarDatos();
+        Cebra cebra1 = new Cebra(112, "Cebra", 2.4f, 65, 20);
+        
+        cebra1.alimentarse();
+        cebra1.correr();
+        cebra1.mostrarDatos();
 
-        Proovedor proovedor1 = new Proovedor("Camilo", "Reyes", 35, "Agendas", 300);
-        proovedor1.mostrarDatos();
+
+        Mango mango1 = new Mango(114, "Mango","Amarillo", "de piña");
+        
+        mango1.alimentarse();
+        mango1.darFruto();
+        mango1.mostrarDatos();
+
+        Caoba caoba1 = new Caoba(115, "Caoba", "Rojo púrpura");
+
+        caoba1.alimentarse();
+        caoba1.darMadera();
+        caoba1.mostrarDatos();
+
     }
 }
